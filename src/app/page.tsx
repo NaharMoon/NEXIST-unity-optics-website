@@ -12,7 +12,7 @@ import { SiteHeader } from "@/components/layout/site-header";
 
 export default function HomePage() {
   return (
-    <main className="min-h-screen bg-white text-slate-950">
+    <main className="min-h-screen bg-surface text-ink">
       <SiteHeader />
       <HeroSection />
       <CollectionsSection />

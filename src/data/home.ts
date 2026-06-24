@@ -15,28 +15,28 @@ export const products: ProductPreview[] = [
     meta: "Italian Acetate - 3 Colors",
     price: "$195.00",
     tag: "NEW ARRIVAL",
-    tint: "from-slate-100 to-white",
+    tint: "from-product-tint-1-start to-product-tint-1-end",
   },
   {
     name: "Aviator Elite",
     meta: "Polished Titanium - 2 Colors",
     price: "$210.00",
     tag: "BESTSELLER",
-    tint: "from-stone-100 to-white",
+    tint: "from-product-tint-2-start to-product-tint-2-end",
   },
   {
     name: "Crystal Clear",
     meta: "Crystal Acetate - 5 Colors",
     price: "$165.00",
     tag: "LIMITED",
-    tint: "from-emerald-900/80 to-emerald-100",
+    tint: "from-product-tint-3-start to-product-tint-3-end",
   },
   {
     name: "Nightfall Noir",
     meta: "Carbon Fiber - 1 Color",
     price: "$240.00",
     tag: "PREMIUM",
-    tint: "from-zinc-100 to-white",
+    tint: "from-product-tint-4-start to-product-tint-4-end",
   },
 ];
 

@@ -39,6 +39,32 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+  --color-brand: var(--brand);
+  --color-brand-foreground: var(--brand-foreground);
+  --color-brand-muted: var(--brand-muted);
+  --color-brand-soft: var(--brand-soft);
+  --color-ink: var(--ink);
+  --color-ink-muted: var(--ink-muted);
+  --color-ink-subtle: var(--ink-subtle);
+  --color-surface: var(--surface);
+  --color-surface-soft: var(--surface-soft);
+  --color-surface-muted: var(--surface-muted);
+  --color-soft-border: var(--soft-border);
+  --color-commerce-dark: var(--commerce-dark);
+  --color-commerce-light: var(--commerce-light);
+  --color-commerce-success: var(--commerce-success);
+  --color-rating: var(--rating);
+  --color-offer-start: var(--offer-start);
+  --color-offer-mid: var(--offer-mid);
+  --color-offer-end: var(--offer-end);
+  --color-product-tint-1-start: var(--product-tint-1-start);
+  --color-product-tint-1-end: var(--product-tint-1-end);
+  --color-product-tint-2-start: var(--product-tint-2-start);
+  --color-product-tint-2-end: var(--product-tint-2-end);
+  --color-product-tint-3-start: var(--product-tint-3-start);
+  --color-product-tint-3-end: var(--product-tint-3-end);
+  --color-product-tint-4-start: var(--product-tint-4-start);
+  --color-product-tint-4-end: var(--product-tint-4-end);
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
@@ -79,6 +105,32 @@
   --sidebar-accent-foreground: oklch(0.21 0.006 285.885);
   --sidebar-border: oklch(0.92 0.004 286.32);
   --sidebar-ring: oklch(0.705 0.015 286.067);
+  --brand: oklch(0.54 0.23 263);
+  --brand-foreground: oklch(0.985 0 0);
+  --brand-muted: oklch(0.68 0.16 263);
+  --brand-soft: oklch(0.96 0.025 263);
+  --ink: oklch(0.16 0.025 267);
+  --ink-muted: oklch(0.43 0.035 267);
+  --ink-subtle: oklch(0.62 0.025 267);
+  --surface: oklch(1 0 0);
+  --surface-soft: oklch(0.985 0.002 267);
+  --surface-muted: oklch(0.96 0.004 267);
+  --soft-border: oklch(0.93 0.006 267);
+  --commerce-dark: oklch(0.16 0.025 267);
+  --commerce-light: oklch(0.98 0.002 267);
+  --commerce-success: oklch(0.72 0.18 145);
+  --rating: oklch(0.78 0.16 80);
+  --offer-start: oklch(0.16 0.025 267);
+  --offer-mid: oklch(0.28 0.12 263);
+  --offer-end: oklch(0.54 0.23 263);
+  --product-tint-1-start: oklch(0.96 0.004 267);
+  --product-tint-1-end: oklch(1 0 0);
+  --product-tint-2-start: oklch(0.95 0.01 75);
+  --product-tint-2-end: oklch(1 0 0);
+  --product-tint-3-start: oklch(0.34 0.06 165);
+  --product-tint-3-end: oklch(0.87 0.035 165);
+  --product-tint-4-start: oklch(0.96 0.004 267);
+  --product-tint-4-end: oklch(1 0 0);
 }
 
 .dark {
@@ -114,6 +166,32 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(0.274 0.006 286.033);
   --sidebar-ring: oklch(0.442 0.017 285.786);
+  --brand: oklch(0.68 0.18 263);
+  --brand-foreground: oklch(0.985 0 0);
+  --brand-muted: oklch(0.74 0.14 263);
+  --brand-soft: oklch(0.24 0.045 263);
+  --ink: oklch(0.985 0 0);
+  --ink-muted: oklch(0.78 0.02 267);
+  --ink-subtle: oklch(0.62 0.02 267);
+  --surface: oklch(0.17 0.012 267);
+  --surface-soft: oklch(0.21 0.014 267);
+  --surface-muted: oklch(0.25 0.016 267);
+  --soft-border: oklch(0.31 0.018 267);
+  --commerce-dark: oklch(0.13 0.014 267);
+  --commerce-light: oklch(0.94 0.004 267);
+  --commerce-success: oklch(0.74 0.16 145);
+  --rating: oklch(0.82 0.15 80);
+  --offer-start: oklch(0.14 0.014 267);
+  --offer-mid: oklch(0.27 0.09 263);
+  --offer-end: oklch(0.58 0.19 263);
+  --product-tint-1-start: oklch(0.25 0.016 267);
+  --product-tint-1-end: oklch(0.18 0.012 267);
+  --product-tint-2-start: oklch(0.29 0.03 75);
+  --product-tint-2-end: oklch(0.18 0.012 267);
+  --product-tint-3-start: oklch(0.26 0.05 165);
+  --product-tint-3-end: oklch(0.34 0.045 165);
+  --product-tint-4-start: oklch(0.25 0.016 267);
+  --product-tint-4-end: oklch(0.18 0.012 267);
 }
 
 @layer base {

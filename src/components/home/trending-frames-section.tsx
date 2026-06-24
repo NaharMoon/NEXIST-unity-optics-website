@@ -10,7 +10,7 @@ export function TrendingFramesSection() {
         <div className="flex items-end justify-between gap-4">
           <div>
             <h2 className="text-2xl font-bold">Trending Frames</h2>
-            <p className="mt-1 text-sm text-slate-500">The season&apos;s most coveted designs</p>
+            <p className="mt-1 text-sm text-ink-subtle">The season&apos;s most coveted designs</p>
           </div>
           <div className="flex gap-2">
             <Button aria-label="Previous products" className="rounded-full" size="icon" variant="outline">
