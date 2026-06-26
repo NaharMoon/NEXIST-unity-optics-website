@@ -5,9 +5,9 @@ const navItems = ["Collections", "Prescription", "Sunglasses", "Virtual Try-On"]
 
 export function SiteHeader() {
   return (
-    <header className="sticky top-0 z-30 border-b border-soft-border bg-surface/90 backdrop-blur">
-      <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
-        <a className="text-xl font-bold tracking-wide" href="#">
+    <header className="sticky top-0 z-50 border-b border-soft-border/50 bg-surface/80 shadow-sm backdrop-blur-md">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-16">
+        <a className="text-2xl font-bold tracking-[-0.03em] text-commerce-dark sm:text-[32px]" href="#">
           LUXE OPTICS
         </a>
 
@@ -24,9 +24,9 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-3">
-          <div className="hidden h-10 w-52 items-center gap-2 rounded-full bg-surface-muted px-4 text-sm text-ink-subtle sm:flex">
+          <div className="hidden h-12 w-56 items-center gap-3 rounded-full border border-soft-border/70 bg-surface-muted px-4 text-sm text-ink-subtle lg:flex">
             <Search className="size-4" />
-            <span>Search frames...</span>
+            <span>Search frame...</span>
           </div>
           <Button aria-label="Cart" className="rounded-full" size="icon" variant="ghost">
             <ShoppingBag className="size-5" />
