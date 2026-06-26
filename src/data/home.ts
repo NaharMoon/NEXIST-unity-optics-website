@@ -16,6 +16,9 @@ export const products: ProductPreview[] = [
     price: "$195.00",
     tag: "NEW ARRIVAL",
     tint: "from-product-tint-1-start to-product-tint-1-end",
+    image: "/assets/stitch/products/noho-graphite.png",
+    imageAlt: "Premium dark tortoise frames",
+    reviews: "98",
   },
   {
     name: "Aviator Elite",
@@ -23,6 +26,9 @@ export const products: ProductPreview[] = [
     price: "$210.00",
     tag: "BESTSELLER",
     tint: "from-product-tint-2-start to-product-tint-2-end",
+    image: "/assets/stitch/products/aviator-elite.png",
+    imageAlt: "Classic tortoise shell sunglasses with gold accents",
+    reviews: "86",
   },
   {
     name: "Crystal Clear",
@@ -30,6 +36,7 @@ export const products: ProductPreview[] = [
     price: "$165.00",
     tag: "LIMITED",
     tint: "from-product-tint-3-start to-product-tint-3-end",
+    reviews: "74",
   },
   {
     name: "Nightfall Noir",
@@ -37,6 +44,7 @@ export const products: ProductPreview[] = [
     price: "$240.00",
     tag: "PREMIUM",
     tint: "from-product-tint-4-start to-product-tint-4-end",
+    reviews: "62",
   },
 ];
 

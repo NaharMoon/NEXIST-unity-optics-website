@@ -25,6 +25,9 @@ export type ProductPreview = {
   price: string;
   tag: string;
   tint: string;
+  image?: string;
+  imageAlt?: string;
+  reviews?: string;
 };
 
 export type FooterLinkGroup = {

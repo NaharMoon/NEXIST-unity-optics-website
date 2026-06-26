@@ -1,4 +1,5 @@
-import { BadgeCheck, Glasses } from "lucide-react";
+import Image from "next/image";
+import { BadgeCheck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const tryOnBenefits = [
@@ -9,12 +10,18 @@ const tryOnBenefits = [
 
 export function TryOnSection() {
   return (
-    <section className="bg-commerce-dark py-14 text-brand-foreground">
+    <section className="bg-[var(--offer-start)] py-14 text-brand-foreground">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 sm:px-6 lg:grid-cols-2 lg:px-8">
-        <div className="relative min-h-80 overflow-hidden rounded-lg bg-surface/95 p-6 text-ink">
-          <div className="absolute inset-x-10 top-10 h-52 rounded-full bg-surface-muted blur-3xl" />
-          <div className="relative grid h-full place-items-center rounded-md border border-soft-border bg-gradient-to-br from-surface via-surface-soft to-surface-muted">
-            <Glasses className="size-28 text-ink-subtle" />
+        <div className="relative min-h-80 overflow-hidden rounded-lg bg-surface/95 p-4 text-ink">
+          <div className="relative h-full min-h-72 overflow-hidden rounded-md border border-soft-border bg-surface-muted">
+            <Image
+              alt="Virtual try-on technology demo"
+              className="object-cover"
+              fill
+              sizes="(min-width: 1024px) 50vw, 100vw"
+              src="/assets/stitch/try-on/virtual-try-on.png"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-commerce-dark/35 to-transparent" />
           </div>
           <span className="absolute bottom-8 left-8 flex items-center gap-2 rounded-full bg-surface px-3 py-2 text-xs font-semibold text-ink-muted shadow">
             <span className="size-2 rounded-full bg-commerce-success" />

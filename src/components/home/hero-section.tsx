@@ -4,9 +4,20 @@ import { Button } from "@/components/ui/button";
 
 export function HeroSection() {
   return (
-    <section className="relative overflow-hidden">
-      <div className="mx-auto grid min-h-[620px] max-w-7xl items-end px-4 pt-20 sm:px-6 lg:grid-cols-[0.9fr_1.1fr] lg:px-8">
-        <div className="z-10 pb-10 lg:pb-24">
+    <section className="relative min-h-[760px] overflow-hidden bg-surface-soft lg:min-h-[85vh]">
+      <Image
+        alt="Woman wearing premium optical eyeglasses"
+        className="object-cover object-center"
+        fill
+        priority
+        sizes="100vw"
+        src="/assets/stitch/hero/luxe-hero-model.png"
+      />
+      <div className="absolute inset-0 bg-gradient-to-r from-surface-soft via-surface-soft/75 to-transparent" />
+      <div className="absolute inset-0 bg-gradient-to-t from-surface-soft via-transparent to-transparent lg:hidden" />
+
+      <div className="relative mx-auto flex min-h-[760px] max-w-7xl items-end px-5 pt-20 sm:px-6 lg:min-h-[85vh] lg:px-16">
+        <div className="z-10 pb-14 lg:pb-28">
           <p className="mb-5 text-sm font-semibold uppercase tracking-[0.28em] text-brand">
             Premium optical boutique
           </p>
@@ -14,8 +25,8 @@ export function HeroSection() {
             Find Your Perfect <span className="block text-brand">Vision & Style</span>
           </h1>
           <p className="mt-5 max-w-md text-base leading-7 text-ink-muted">
-            Expertly crafted eyewear designed for clinical precision and modern aesthetics.
-            Experience luxury on your face.
+            Expertly crafted eyewear designed for clinical precision and high-fashion aesthetics.
+            Experience luxury that you can see.
           </p>
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
             <Button className="h-12 bg-commerce-dark px-7 text-brand-foreground hover:bg-commerce-dark/90">
@@ -36,18 +47,6 @@ export function HeroSection() {
               30-Day Easy Returns
             </span>
           </div>
-        </div>
-
-        <div className="relative -mx-4 h-[420px] sm:-mx-6 lg:mx-0 lg:h-[620px]">
-          <Image
-            alt="Woman wearing premium optical eyeglasses"
-            className="object-cover object-center lg:rounded-tl-[3rem]"
-            fill
-            priority
-            sizes="(min-width: 1024px) 58vw, 100vw"
-            src="/luxe-hero.png"
-          />
-          <div className="absolute inset-0 bg-gradient-to-r from-surface via-surface/35 to-transparent lg:from-surface/80" />
         </div>
       </div>
     </section>
